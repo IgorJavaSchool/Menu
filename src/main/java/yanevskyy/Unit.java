@@ -10,7 +10,7 @@ import java.util.List;
 public class Unit implements MenuUnit{
     /*Unit name*/
     private String name;
-    /*Sub Unit*/
+    /*Sub unit*/
     private List<SubUnit> subUnitList;
 
     /**

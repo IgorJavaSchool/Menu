@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Uses as menu with utils.
+ * Uses as menu with units.
  * Created by Y on 16.08.2016.
  */
-public class Menu implements ConsoleMenu, UnitsMenager {
+public class Menu implements ConsoleMenu, UnitsManager {
     /*Menu utils*/
     private List<Unit> units;
 
@@ -19,7 +19,7 @@ public class Menu implements ConsoleMenu, UnitsMenager {
     }
 
     /**
-     * Print all utils and sub utils to console.
+     * Print all units and sub units to console.
      */
     @Override
     public void printAllMenu(){
