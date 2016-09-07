@@ -7,7 +7,7 @@ import java.util.List;
  * Uses as item menu.
  * @author Yanevskyy Igor igor2000@inbox.ru.
  */
-public class ItemIpl implements Item {
+public class ItemIpl implements Item, ItemsManager {
     /*Item name*/
     private String name;
     /*All subitems*/
@@ -33,6 +33,7 @@ public class ItemIpl implements Item {
         }
     }
 
+    @Override
     public void addSubItems(SubItem subItem){
         this.subItems.add(subItem);
     }
